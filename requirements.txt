@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+pymongo
+mangum
+motor
+pydantic
+pydantic[email]
+pydantic-core
+python-jose
+python-dotenv
+passlib
+pydantic-settings
+bcrypt
+pytest
+pytest-asyncio
+httpx
+pytest-cov

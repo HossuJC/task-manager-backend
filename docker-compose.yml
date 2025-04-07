@@ -1,0 +1,20 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - DB_STRING=${DB_STRING}
+      - DB_NAME=${DB_NAME}
+      - DB_TEST_NAME=${DB_TEST_NAME}
+      - SECRET_KEY=${SECRET_KEY}
+      - ACCESS_TOKEN_EXPIRE_MINUTES=${ACCESS_TOKEN_EXPIRE_MINUTES}
+    volumes:
+      - .:/app
+    networks:
+      - app-network
+
+# Definimos una red para el contenedor
+networks:
+  app-network:
+    driver: bridge
