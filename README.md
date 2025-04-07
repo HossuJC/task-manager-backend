@@ -1,6 +1,7 @@
 # Task Manager Backend API
 
 FastAPI backend for task management with JWT authentication and MongoDB.
+
 API url: <https://j5s3m0dla9.execute-api.us-east-1.amazonaws.com/dev/>
 
 ## Features
@@ -111,10 +112,9 @@ TESTING=True pytest
 |SECRET_KEY                  | Yes      | -                         |
 |ACCESS_TOKEN_EXPIRE_MINUTES | No       | 60                        |
 
-### Documentation
-Access after running:
-- Swagger UI: http://localhost:8000/docs
-- ReDoc: http://localhost:8000/redoc
+### Documentation (Swagger UI)
+- Online: <https://j5s3m0dla9.execute-api.us-east-1.amazonaws.com/dev/docs>
+- Locally (after running proyect): <http://localhost:8000/docs>
 
 ### Deployment
 #### Serverless (AWS Lambda)

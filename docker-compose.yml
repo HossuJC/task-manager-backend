@@ -14,7 +14,6 @@ services:
     networks:
       - app-network
 
-# Definimos una red para el contenedor
 networks:
   app-network:
     driver: bridge

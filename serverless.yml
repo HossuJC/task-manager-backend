@@ -18,8 +18,6 @@ package:
         - README.md
         - src/tests/**
         - node_modules/**
-        - venv/**
-        - .venv/**
         - .serverless/**
         - package.json
         - package-lock.json
